@@ -684,6 +684,69 @@ body{
   margin-bottom: 0.5rem;
 }
 
+
+/* Achievements Section */
+.achievements {
+  background: var(--second-bg-color);
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.achievements-card {
+  background: var(--bg-color);
+  padding: 3rem;
+  border-radius: 2rem;
+  border: .2rem solid var(--bg-color);
+  transition: .5s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.achievements-card:hover {
+  border-color: var(--main-color);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 238, 255, 0.15);
+}
+
+.achievements-card .card-icon {
+  font-size: 4.5rem;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.achievements-card h3 {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 2px solid var(--second-bg-color);
+  padding-bottom: 1rem;
+}
+
+.achievements-card ul {
+  list-style-type: none;
+}
+
+.achievements-card li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.achievements-card li:before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
 /* Contact Info */
 .contact-info {
   display: flex;
@@ -701,6 +764,7 @@ body{
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   transition: .3s ease;
+  color: var(--text-color);
 }
 
 .contact-item:hover {
@@ -729,7 +793,7 @@ body{
     flex-direction: column;
   }
   
-  .experience-box, .education-box {
+  .experience-box, .education-box, .achievements-card {
     padding: 2rem;
   }
 }

@@ -1,430 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sachin Portfolio Website</title>
 
-    <!-- box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin Portfolio Website</title>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-  <body>
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- header design -->
-    <header class="header">
-      <a href="#" class="logo">Portfolio</a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#portfolio">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+<body>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Hello, It's Me</h3>
-        <h1>Sachin Chinnasamy</h1>
-        <h3>And I'm a <span class="multiple-text"></span></h3>
-        <p>Motivated software developer with experience in full-stack .NET development, specializing in Django,Blazor WebAssembly,ASP.NET Core, and MongoDB. Passionate about learning new technologies and exploring machine learning basics.</p>
- 
-        <div class="social-media">
-          <a href="https://github.com/Sachin-992" target="_blank"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/sachin-chinnasamy-8a015526a" target="_blank"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.instagram.com/yourusername" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-          <!--<a href="https://twitter.com/yourusername" target="_blank"><i class="bx bxl-twitter"></i></a> -->
-        </div>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <a href="Sachin-Resume.pdf" class="btn">Download CV</a>
-        <a href="#contact" class="btn btn-secondary">Hire Me</a>
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Sachin C</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>.NET Full Stack Developer with experience building scalable web applications using ASP.NET Core, Blazor
+        WebAssembly, MudBlazor, MongoDB, and REST APIs. Currently contributing to AI-powered assessment platforms at
+        WiseWork. Skilled in full-stack development, authentication, database design, and performance optimization.
+        Passionate about leveraging modern technologies to deliver efficient and user-focused software solutions.</p>
+
+      <div class="social-media">
+        <a href="https://github.com/Sachin-992" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/sachin-chinnasamy-8a015526a" target="_blank"><i
+            class="bx bxl-linkedin"></i></a>
       </div>
 
-      <div class="home-img">
-        <img src="home.png" alt="Sachin Chinnasamy">
-      </div>
-    </section>
+      <a href="Sachin's Resume.pdf" class="btn" download>Download Resume</a>
+      <a href="#contact" class="btn btn-secondary">Contact Me</a>
+    </div>
 
-    <!-- about section design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="about.sachin.jpg" alt="About Sachin">
-      </div>
+    <div class="home-img">
+      <img src="home.png" alt="Sachin C">
+    </div>
+  </section>
 
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>.NET Developer</h3>
-        <p>I'm a software developer with experience in full-stack development, currently working at WiseWork on SkillCheck, a real-time quiz platform. I've also built an e-commerce website using Django, showcasing end-to-end development skills. I completed my B.E. in Mechanical Engineering from SSN College of Engineering with a CGPA of 7.89/10.0.</p>
-        <a href="#experience" class="btn">My Experience</a>
-      </div>
-    </section>
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="about.sachin.jpg" alt="About Sachin">
+    </div>
 
- <!-- skills section design -->
-<section class="skills" id="skills">
-  <h2 class="heading">My <span>Skills</span></h2>
-  
-  <div class="skills-carousel">
-    <div class="carousel-container">
-      <!-- Languages & Web Card -->
-      <div class="skills-card">
-        <div class="card-header">
-          <i class='bx bx-code-alt'></i>
-          <h3>Languages & Web</h3>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
-            </div>
-            <span class="skill-name">C#</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-            </div>
-            <span class="skill-name">Python</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
-            </div>
-            <span class="skill-name">SQL</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-            </div>
-            <span class="skill-name">HTML</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-            </div>
-            <span class="skill-name">CSS</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
-            </div>
-            <span class="skill-name">Bootstrap</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-            </div>
-            <span class="skill-name">JavaScript</span>
-          </div>
-        </div>
-      </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>.NET Full Stack Developer</h3>
+      <p>I am a .NET Full Stack Developer with hands-on experience building scalable web applications using ASP.NET
+        Core, Blazor WebAssembly, MudBlazor, MongoDB, and REST APIs. Currently working at WiseWork, contributing to
+        AI-powered assessment platforms and enterprise applications. I enjoy solving complex problems, building
+        user-friendly solutions, and continuously learning modern technologies.</p>
+      <a href="#experience" class="btn">My Experience</a>
+    </div>
+  </section>
 
-      <!-- Frameworks Card -->
-      <div class="skills-card">
-        <div class="card-header">
-          <i class='bx bx-server'></i>
-          <h3>Frameworks</h3>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET">
-            </div>
-            <span class="skill-name">Blazor</span>
+  <!-- skills section design -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-carousel">
+      <div class="carousel-container">
+        <!-- Programming Languages & Frontend Card -->
+        <div class="skills-card">
+          <div class="card-header">
+            <i class='bx bx-code-alt'></i>
+            <h3>Programming Languages & Frontend</h3>
           </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="ASP.NET">
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+              </div>
+              <span class="skill-name">C#</span>
             </div>
-            <span class="skill-name">ASP.NET Core</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+              </div>
+              <span class="skill-name">Python</span>
             </div>
-            <span class="skill-name">Django</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+              </div>
+              <span class="skill-name">SQL</span>
             </div>
-            <span class="skill-name">MongoDB</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript">
+              </div>
+              <span class="skill-name">JavaScript</span>
             </div>
-            <span class="skill-name">MySQL</span>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+                  alt="Blazor WebAssembly">
+              </div>
+              <span class="skill-name">Blazor WebAssembly</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-layer"></i>
+              </div>
+              <span class="skill-name">MudBlazor</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+              </div>
+              <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+              </div>
+              <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap">
+              </div>
+              <span class="skill-name">Bootstrap</span>
+            </div>
           </div>
         </div>
+
+        <!-- Backend & Databases Card -->
+        <div class="skills-card">
+          <div class="card-header">
+            <i class='bx bx-server'></i>
+            <h3>Backend & Databases</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                  alt="ASP.NET Core">
+              </div>
+              <span class="skill-name">ASP.NET Core</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-server"></i>
+              </div>
+              <span class="skill-name">ASP.NET Core Web API</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-code-curly"></i>
+              </div>
+              <span class="skill-name">REST APIs</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-shield-quarter"></i>
+              </div>
+              <span class="skill-name">JWT Authentication</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB">
+              </div>
+              <span class="skill-name">MongoDB</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+                  alt="SQL Server">
+              </div>
+              <span class="skill-name">SQL Server</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+              </div>
+              <span class="skill-name">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools Card -->
+        <div class="skills-card">
+          <div class="card-header">
+            <i class='bx bx-cog'></i>
+            <h3>Tools</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+              </div>
+              <span class="skill-name">Git</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+              </div>
+              <span class="skill-name">GitHub</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+                  alt="Azure DevOps">
+              </div>
+              <span class="skill-name">Azure DevOps</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                  alt="Postman">
+              </div>
+              <span class="skill-name">Postman</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <span class="skill-name">Apache Locust</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="bx bx-line-chart"></i>
+              </div>
+              <span class="skill-name">JMeter</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- Other Skills Card -->
-      <div class="skills-card">
-        <div class="card-header">
-          <i class='bx bx-cog'></i>
-          <h3>Other Skills</h3>
+      <!-- Carousel Controls - Fixed positioning -->
+      <button class="carousel-control prev" onclick="moveSlide(-1)">
+        <i class='bx bx-chevron-left'></i>
+      </button>
+      <button class="carousel-control next" onclick="moveSlide(1)">
+        <i class='bx bx-chevron-right'></i>
+      </button>
+
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <span class="indicator active" onclick="showSlide(0)"></span>
+        <span class="indicator" onclick="showSlide(1)"></span>
+        <span class="indicator" onclick="showSlide(2)"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- experience section design -->
+  <section class="experience" id="experience">
+    <h2 class="heading">Work <span>Experience</span></h2>
+
+    <div class="experience-container">
+      <div class="experience-box">
+        <div class="exp-header">
+          <h3>.NET Developer</h3>
+          <span class="company">WiseWork | Jan 2025 – Present</span>
         </div>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="Machine Learning">
-            </div>
-            <span class="skill-name">Machine Learning</span>
+        <ul>
+          <li>Developed and enhanced modules for test creation, candidate registration, exam management, and result
+            tracking using ASP.NET Core, Blazor WebAssembly, MudBlazor, and MongoDB.</li>
+          <li>Implemented REST APIs, role-based authentication, and AI-powered question generation to improve assessment
+            creation and management efficiency.</li>
+          <li>Built scalable dashboards, custom data tables, and management workflows for system administrators.</li>
+          <li>Collaborated with development and QA teams to deliver scalable, high-performance, and secure enterprise
+            applications.</li>
+        </ul>
+      </div>
+
+      <div class="experience-box">
+        <div class="exp-header">
+          <h3>Research Intern</h3>
+          <span class="company">IIT Madras | Jul 2024 – Aug 2024</span>
+        </div>
+        <ul>
+          <li>Evaluated the structural integrity of a Baja roll cage under static loading conditions.</li>
+          <li>Used SimSolid simulation software to assess structural performance, strength, and driver safety.</li>
+          <li>Analyzed simulation results, performed FEA comparisons, and prepared detailed engineering documentation.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="portfolio1.jpg" alt="E-commerce Website">
+        <div class="portfolio-layer">
+          <h4>E-commerce Website</h4>
+          <p>Full-featured e-commerce platform built with Django, HTML, CSS, Bootstrap and MySQL</p>
+          <div class="project-links">
+            <a href="https://github.com/Sachin-992/Django-Ecommerce-Website.git" target="_blank" title="View Code">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://youtu.be/CT5kcXkZ4Ck" target="_blank" title="Watch Demo">
+              <i class="bx bx-play-circle"></i>
+            </a>
+            <a href="#" title="View Details">
+              <i class="bx bx-link-external"></i>
+            </a>
           </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-            </div>
-            <span class="skill-name">Git</span>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="portfolio2.jpg" alt="SkillCheck – AI-Powered Assessment Platform">
+        <div class="portfolio-layer">
+          <h4>SkillCheck</h4>
+          <p>AI-Powered Assessment Platform built with ASP.NET Core, Blazor WebAssembly, MudBlazor, MongoDB, OpenAI</p>
+          <div class="project-links">
+            <a href="https://github.com/Sachin-992" target="_blank" title="View Code">
+              <i class="bx bxl-github"></i>
+            </a>
           </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-            </div>
-            <span class="skill-name">GitHub</span>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="portfolio3.jpg" alt="Wise Ultima – Enterprise Wealth Management Platform">
+        <div class="portfolio-layer">
+          <h4>Wise Ultima</h4>
+          <p>Enterprise Wealth Management Platform built with ASP.NET Core, Blazor, SQL Server, Azure DevOps</p>
+          <div class="project-links">
+            <a href="https://github.com/Sachin-992" target="_blank" title="View Code">
+              <i class="bx bxl-github"></i>
+            </a>
           </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i class="bx bx-code-curly"></i>
-            </div>
-            <span class="skill-name">REST APIs</span>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i class="bx bx-palette"></i>
-            </div>
-            <span class="skill-name">UI/UX Design</span>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="portfolio4.jpg" alt="Wise Migrate – Performance Testing">
+        <div class="portfolio-layer">
+          <h4>Wise Migrate</h4>
+          <p>Performance testing suite for enterprise applications using Apache Locust, JMeter, SQL Server, and Postman
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Sachin-992" target="_blank" title="View Code">
+              <i class="bx bxl-github"></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- Carousel Controls - Fixed positioning -->
-    <button class="carousel-control prev" onclick="moveSlide(-1)">
-      <i class='bx bx-chevron-left'></i>
-    </button>
-    <button class="carousel-control next" onclick="moveSlide(1)">
-      <i class='bx bx-chevron-right'></i>
-    </button>
-    
-    <!-- Carousel Indicators -->
-    <div class="carousel-indicators">
-      <span class="indicator active" onclick="showSlide(0)"></span>
-      <span class="indicator" onclick="showSlide(1)"></span>
-      <span class="indicator" onclick="showSlide(2)"></span>
-    </div>
-  </div>
-</section>
+  </section>
 
+  <!-- education section design -->
+  <section class="education" id="education">
+    <h2 class="heading">My <span>Education</span></h2>
 
-    <!-- experience section design -->
-    <section class="experience" id="experience">
-      <h2 class="heading">Work <span>Experience</span></h2>
-      
-      <div class="experience-container">
-        <div class="experience-box">
-          <div class="exp-header">
-            <h3>.NET Developer Intern</h3>
-            <span class="company">WiseWork | 2025 - Present</span>
-          </div>
-          <ul>
-            <li>Contributed to the development of SkillCheck, a full-stack quiz platform</li>
-            <li>Used Blazor WebAssembly and MudBlazor for frontend UI</li>
-            <li>Built and consumed REST APIs using ASP.NET Core Web API</li>
-            <li>Implemented admin dashboards, test creation, and user registration</li>
-            <li>Integrated MongoDB for backend storage and user test tracking</li>
-          </ul>
+    <div class="education-container">
+      <div class="education-box">
+        <div class="edu-header">
+          <h3>Bachelor of Engineering – Mechanical Engineering</h3>
+          <span class="institute">SSN College of Engineering | 2021 – 2025</span>
         </div>
-        
-        <div class="experience-box">
-          <div class="exp-header">
-            <h3>Research Intern</h3>
-            <span class="company">IIT Madras | 2024</span>
-          </div>
-          <ul>
-            <li>Evaluated the structural integrity of a Baja roll cage under static loading conditions</li>
-            <li>Used SimSolid simulation tool to assess performance and safety</li>
-            <li>Analyzed the roll cage's ability to withstand various loads in real-world scenarios</li>
-          </ul>
-        </div>
+        <p>CGPA: 7.89 / 10</p>
+        <p>Chennai, Tamil Nadu</p>
       </div>
-    </section>
 
-<!-- portfolio section design -->
-<section class="portfolio" id="portfolio">
-  <h2 class="heading">My <span>Projects</span></h2>
-
-  <div class="portfolio-container">
-    <div class="portfolio-box">
-      <img src="portfolio1.jpg" alt="E-commerce Website">
-      <div class="portfolio-layer">
-        <h4>E-commerce Website</h4>
-        <p>Full-featured e-commerce platform built with Django, HTML, CSS, Bootstrap and MySQL</p>
-        <div class="project-links">
-          <a href="https://github.com/Sachin-992/Django-Ecommerce-Website.git" target="_blank" title="View Code">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a href="https://youtu.be/CT5kcXkZ4Ck" target="_blank" title="Watch Demo">
-            <i class="bx bx-play-circle"></i>
-          </a>
-          <a href="#" title="View Details">
-            <i class="bx bx-link-external"></i>
-          </a>
+      <div class="education-box">
+        <div class="edu-header">
+          <h3>Higher Secondary Education</h3>
+          <span class="institute">Government Boys Higher Secondary School | 2021</span>
         </div>
+        <p>Percentage: 82.5%</p>
+      </div>
+
+      <div class="education-box">
+        <div class="edu-header">
+          <h3>SSLC Education</h3>
+          <span class="institute">Government Boys Higher Secondary School | 2019</span>
+        </div>
+        <p>Percentage: 81.8%</p>
       </div>
     </div>
+  </section>
 
-    <div class="portfolio-box">
-      <img src="portfolio2.jpg" alt="SkillCheck Platform">
-      <div class="portfolio-layer">
-        <h4>SkillCheck Quiz Platform</h4>
-        <p>Real-time quiz platform built with Blazor WebAssembly and ASP.NET Core</p>
-        <div class="project-links">
-          <a href="https://github.com/yourusername/skillcheck-project" target="_blank" title="View Code">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a href="https://youtu.be/your-video-id" target="_blank" title="Watch Demo">
-            <i class="bx bx-play-circle"></i>
-          </a>
-          <a href="#" title="View Details">
-            <i class="bx bx-link-external"></i>
-          </a>
+  <!-- achievements section design -->
+  <section class="achievements" id="achievements">
+    <h2 class="heading">My <span>Achievements</span></h2>
+
+    <div class="achievements-grid">
+      <!-- Card 1: Academic & Professional -->
+      <div class="achievements-card">
+        <div class="card-icon">
+          <i class="bx bx-award"></i>
         </div>
+        <h3>Academic & Professional</h3>
+        <ul>
+          <li>Selected under the Tamil Nadu 7.5% Government School Reservation Scheme.</li>
+          <li>Contributed to the development of AI-powered assessment platforms at WiseWork.</li>
+          <li>Performed enterprise-level performance testing using Apache Locust and JMeter.</li>
+        </ul>
+      </div>
+
+      <!-- Card 2: Leadership & NSO -->
+      <div class="achievements-card">
+        <div class="card-icon">
+          <i class="bx bx-group"></i>
+        </div>
+        <h3>Leadership & NSO</h3>
+        <ul>
+          <li>Served as the Marketing Manager for the Invente Project Presentation (2023 – 2024).</li>
+          <li>Dedicated NSO (National Sports Organisation) volunteer (2022 – 2024).</li>
+        </ul>
+      </div>
+
+      <!-- Card 3: Sports & Athletics -->
+      <div class="achievements-card">
+        <div class="card-icon">
+          <i class="bx bx-trophy"></i>
+        </div>
+        <h3>Sports & Athletics</h3>
+        <ul>
+          <li>Ball Badminton player, demonstrating strong leadership as the team captain for two seasons.</li>
+          <li>Active Cricket player, participating in college matches and tournament events.</li>
+        </ul>
       </div>
     </div>
+  </section>
 
-    <div class="portfolio-box">
-      <img src="portfolio3.jpg" alt="AI Question Generation">
-      <div class="portfolio-layer">
-        <h4>AI Question Generation</h4>
-        <p>AI-based question generation system integrated into SkillCheck platform</p>
-        <div class="project-links">
-          <a href="https://github.com/yourusername/ai-question-generator" target="_blank" title="View Code">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a href="https://youtu.be/your-video-id" target="_blank" title="Watch Demo">
-            <i class="bx bx-play-circle"></i>
-          </a>
-          <a href="#" title="View Details">
-            <i class="bx bx-link-external"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-    <!-- education section design -->
-    <section class="education" id="education">
-      <h2 class="heading">My <span>Education</span></h2>
-      
-      <div class="education-container">
-        <div class="education-box">
-          <div class="edu-header">
-            <h3>B.E. Mechanical Engineering</h3>
-            <span class="institute">SSN College of Engineering | 2021 - 2025</span>
-          </div>
-          <p>CGPA: 7.89 / 10.0</p>
-          <p>Chennai, Tamil Nadu</p>
-        </div>
-        
-        <div class="education-box">
-          <div class="edu-header">
-            <h3>Higher Secondary Education</h3>
-            <span class="institute">Government Boys Higher Secondary School | 2021</span>
-          </div>
-          <p>Percentage: 82.50%</p>
-        </div>
-        <div class="education-box">
-          <div class="edu-header">
-            <h3>SSLC Education</h3>
-            <span class="institute">Government Boys Higher Secondary School | 2019</span>
-          </div>
-          <p>Percentage: 81.80%</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- contact section design -->
   <!-- contact section design -->
-<section class="contact" id="contact">
-  <h2 class="heading">Contact <span>Me!</span></h2>
-      
-  <div class="contact-info">
-    <div class="contact-item">
-      <i class="bx bx-phone"></i>
-      <div class="contact-details">
-        <h3>Phone</h3>
-        <p>+91 8610964049</p>
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <div class="contact-info">
+      <a href="tel:+918610964049" class="contact-item">
+        <i class="bx bx-phone"></i>
+        <div class="contact-details">
+          <h3>Phone</h3>
+          <p>+91 8610964049</p>
+        </div>
+      </a>
+
+      <a href="mailto:sachinchinnasamy2021@gmail.com" class="contact-item">
+        <i class="bx bx-envelope"></i>
+        <div class="contact-details">
+          <h3>Email</h3>
+          <p>sachinchinnasamy2021@gmail.com</p>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/sachin-chinnasamy-8a015526a" target="_blank" class="contact-item">
+        <i class="bx bxl-linkedin"></i>
+        <div class="contact-details">
+          <h3>LinkedIn</h3>
+          <p>Sachin Chinnasamy</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sachin-992" target="_blank" class="contact-item">
+        <i class="bx bxl-github"></i>
+        <div class="contact-details">
+          <h3>GitHub</h3>
+          <p>Sachin-992</p>
+        </div>
+      </a>
+
+      <div class="contact-item">
+        <i class="bx bx-map"></i>
+        <div class="contact-details">
+          <h3>Location</h3>
+          <p>Hosur, Tamil Nadu, India</p>
+        </div>
       </div>
     </div>
-        
-    <div class="contact-item">
-      <i class="bx bx-envelope"></i>
-      <div class="contact-details">
-        <h3>Email</h3>
-        <p>sachinchinnasamy2021@gmail.com</p>
-      </div>
-    </div>
-        
-    <div class="contact-item">
-      <i class="bx bx-map"></i>
-      <div class="contact-details">
-        <h3>Location</h3>
-        <p>Hosur, Tamil Nadu, India</p>
-      </div>
-    </div>
-  </div>
 
 
-  <form action="https://formspree.io/f/xzzalayd" method="POST">
-    <div class="input-box">
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-    </div>
-
-    <div class="input-box">
-      <input type="tel" name="phone" placeholder="Mobile Number">
-      <input type="text" name="subject" placeholder="Email Subject">
-    </div>
-
-    <textarea class="area" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-
-    <input type="submit" value="Send Message" class="btn">
-  </form>
-
-</section>
-
-
-    <!-- footer design -->
-    <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2025 by Sachin | All Rights Reserved.</p> 
+    <form action="https://formspree.io/f/xzzalayd" method="POST">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
       </div>
 
-      <div class="footer-iconTop">
-        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      <div class="input-box">
+        <input type="tel" name="phone" placeholder="Mobile Number">
+        <input type="text" name="subject" placeholder="Email Subject">
       </div>
-    </footer>
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+      <textarea class="area" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
 
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
 
-    <!-- custom js -->
-    <script src="script.js"></script>
-  </body>
+  </section>
+
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2026 by Sachin | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="script.js"></script>
+</body>
 
 </html>
-
-

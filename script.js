@@ -63,7 +63,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 // Update the typed animation with your actual skills
 const typed = new Typed('.multiple-text',{
-    strings: ['.NET Developer', 'Full Stack Developer', 'Python Developer', 'Web Developer'],
+    strings: ['.NET Full Stack Developer', 'Software Developer', 'Backend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -71,7 +71,7 @@ const typed = new Typed('.multiple-text',{
 });
 
 // Add the new sections to the ScrollReveal configuration
-ScrollReveal().reveal('.experience-container, .education-container', 
+ScrollReveal().reveal('.experience-container, .education-container, .achievements-grid', 
     {origin: 'bottom'});
 
 
